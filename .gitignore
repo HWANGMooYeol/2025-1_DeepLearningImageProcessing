@@ -1,0 +1,98 @@
+# =========================
+# 🔧 Build / Output
+# =========================
+build/
+Build/
+Debug/
+Release/
+out/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+*.lst
+
+# =========================
+# ⚙️ STM32 / Keil / CubeMX
+# =========================
+*.dep
+*.uvoptx
+*.uvguix.*
+*.uvprojx.bak
+*.sct
+*.bak
+
+# CubeMX Generated (optional)
+*.ioc.backup
+
+# =========================
+# 🧠 Python / AI / DL
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (VERY IMPORTANT)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+
+# Dataset (optional)
+data/
+datasets/
+
+# =========================
+# 🖥 Visual Studio
+# =========================
+.vs/
+*.ipch
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# =========================
+# 🧰 VSCode
+# =========================
+.vscode/
+
+# =========================
+# 🧾 Logs / Temp
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.cache
+
+# =========================
+# 📦 OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔐 Secrets / Config
+# =========================
+.env
+*.key
+*.pem
+
+# =========================
+# 🧪 Misc
+# =========================
+*.zip
+*.tar
+*.gz
